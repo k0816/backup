@@ -1,0 +1,27 @@
+package sample;
+
+public class MyClass {
+    // 公開フィールド（識別用名前）
+    public String label = "名前";
+
+    // 非公開フィールド（現在の値）
+    private int inNo = 0;
+
+    // 公開メソッド（数値を増加/減少/取得）
+    public void plus(int no) {
+        change(no);
+    }
+
+    public void minus(int no) {
+        change(- no);
+    }
+
+    public int get() {
+        return inNo;
+    }
+
+    // 非公開メソッド（数値を変更）
+    private void change(int no) {
+        inNo += no;
+    }
+}

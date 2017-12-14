@@ -1,0 +1,8 @@
+
+
+public class TEST {
+	void eat(){
+		System.out.println("ご飯食べました");
+	}
+}
+

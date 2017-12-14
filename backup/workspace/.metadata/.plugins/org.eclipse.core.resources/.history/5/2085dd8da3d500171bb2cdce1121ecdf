@@ -1,0 +1,16 @@
+package sample;
+
+public class Sample {
+    public static void main(String[] args) {
+        MyClass mc = new MyClass();    // オブジェクトを作成
+
+        System.out.println(mc.label);  // 「名前」と出力
+        System.out.println(mc.get());  // 「0」と出力
+
+        mc.plus(3);   // 「3」を加算
+        System.out.println(mc.get());  // 「3」と出力
+
+        mc.minus(2);  // 「2」を減算
+        System.out.println(mc.get());  // 「1」と出力
+    }
+}

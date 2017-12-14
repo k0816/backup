@@ -1,0 +1,8 @@
+
+
+public class Human {
+	void eat(){
+		System.out.println("ご飯食べました");
+	}
+}
+
