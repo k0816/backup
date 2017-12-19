@@ -83,7 +83,7 @@ public class LoginAction extends ActionSupport implements SessionAware{
 
 			return result;
 		}
-
+		
 		return result;
 	}
 
@@ -101,10 +101,6 @@ public class LoginAction extends ActionSupport implements SessionAware{
 
 	public void setLoginPassword(String loginPassword) {
 		this.loginPassword = loginPassword;
-	}
-
-	public Map<String, Object> getSession() {
-		return session;
 	}
 
 	@Override
