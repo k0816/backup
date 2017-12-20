@@ -1,4 +1,5 @@
-eclipse.preferences.version=1
 ENABLE_ANIMATIONS=false
+KEY_CONFIGURATION_ID=org.eclipse.team.svn.ui.keybindings.scheme
 SHOW_MEMORY_MONITOR=true
+eclipse.preferences.version=1
 showIntro=false

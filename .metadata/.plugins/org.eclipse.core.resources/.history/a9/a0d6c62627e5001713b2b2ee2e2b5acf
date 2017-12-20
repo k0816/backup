@@ -1,0 +1,17 @@
+package 計算;
+
+public class TEST{
+
+private static int[] as;
+
+public static void main(String[] args){
+
+as = null;
+
+as[0]=10;
+
+as[1]=as[0];
+
+}
+}
+
