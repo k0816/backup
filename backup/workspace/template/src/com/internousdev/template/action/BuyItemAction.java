@@ -37,10 +37,19 @@ public class BuyItemAction extends ActionSupport implements SessionAware {
 		result = SUCCESS;
 
 		session.put("stock", stock);
+		// "stock"というString型の名前が付いたstockというオブジェクト
+
+		// String型のstokをint型のintStokへ代入します。
+		// セッションから取得したObject型のデータをString型へ変換 → String型をint型へ変換
+		// それをint型のintStockに代入
 		int intStock = Integer.parseInt(session.get("stock").toString());
+        //             Int型への変換                         String型への変換
+
 		int intPrice = Integer.parseInt(session.get("buyItem_price").toString());
 
 		session.put("buyItem_price", intStock * intPrice);
+		//"buyItem_price"というString型の名前が付いた,intStock*intPriceしたオブジェクト
+
 		String payment;
 
 		if(pay.equals("1")) {

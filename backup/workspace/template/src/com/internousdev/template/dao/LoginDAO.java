@@ -41,6 +41,7 @@ public class LoginDAO {
 				if(!(resultSet.getString("login_id").equals(null))) {
 					loginDTO.setLoginFlg(true);
 				}
+
 			}
 
 		} catch(Exception e) {
