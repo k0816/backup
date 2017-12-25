@@ -36,7 +36,7 @@ public class LoginAction extends ActionSupport implements SessionAware{
 	/**
 	 * 処理結果を格納
 	 */
-	private String result ;
+	private String result;
 
 	/**
 	 * ログイン情報を格納
@@ -83,7 +83,7 @@ public class LoginAction extends ActionSupport implements SessionAware{
 
 			return result;
 		}
-
+		
 		return result;
 	}
 

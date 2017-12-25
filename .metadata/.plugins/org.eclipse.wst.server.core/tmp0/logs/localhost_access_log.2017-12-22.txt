@@ -97,3 +97,11 @@
 0:0:0:0:0:0:0:1 - - [22/Dec/2017:17:20:50 +0900] "POST /ecsite/BuyItemAction.action HTTP/1.1" 200 2412
 0:0:0:0:0:0:0:1 - - [22/Dec/2017:17:20:52 +0900] "POST /ecsite/BuyItemConfirmAction HTTP/1.1" 200 1733
 0:0:0:0:0:0:0:1 - - [22/Dec/2017:17:20:54 +0900] "GET /ecsite/MyPageAction.action HTTP/1.1" 200 1786
+127.0.0.1 - - [22/Dec/2017:17:54:30 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [22/Dec/2017:17:54:32 +0900] "GET /template/ HTTP/1.1" 200 1672
+0:0:0:0:0:0:0:1 - - [22/Dec/2017:17:54:38 +0900] "POST /template/HomeAction.action;jsessionid=242B386C5B5DE6241B1B09F6420E661E HTTP/1.1" 200 2182
+0:0:0:0:0:0:0:1 - - [22/Dec/2017:17:54:42 +0900] "POST /template/LoginAction.action HTTP/1.1" 200 2712
+0:0:0:0:0:0:0:1 - - [22/Dec/2017:17:54:44 +0900] "POST /template/BuyItemAction.action HTTP/1.1" 200 2100
+0:0:0:0:0:0:0:1 - - [22/Dec/2017:17:54:46 +0900] "POST /template/BuyItemConfirmAction.action HTTP/1.1" 200 1624
+0:0:0:0:0:0:0:1 - - [22/Dec/2017:17:54:47 +0900] "GET /template/MyPageAction.action HTTP/1.1" 200 2332
+0:0:0:0:0:0:0:1 - - [22/Dec/2017:17:56:15 +0900] "POST /template/MyPageAction.action HTTP/1.1" 200 1637
