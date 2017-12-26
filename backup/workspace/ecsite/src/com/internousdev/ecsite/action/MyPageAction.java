@@ -53,7 +53,11 @@ public class MyPageAction extends ActionSupport implements SessionAware{
 
 			myPageList = myPageDAO.getMyPageUserInfo(item_transaction_id, user_master_id);
 
+			// DBから商品の購入履歴が取れたか(=購入履歴が存在したか)
 			Iterator<MyPageDTO> iterator = myPageList.iterator();
+
+			// 購入履歴の情報がなかった場合->変数を削除します。
+			//情報は入ってないため、初期化して綺麗にする。
 			if (!(iterator.hasNext())) {
 				myPageList = null;
 			}
