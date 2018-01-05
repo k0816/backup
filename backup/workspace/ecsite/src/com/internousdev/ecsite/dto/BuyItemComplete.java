@@ -1,5 +1,5 @@
-package com.internousdev.ecsite.dto;
-
-public class BuyItemComplete {
-
-}
+//package com.internousdev.ecsite.dto;
+//
+//public class BuyItemComplete {
+//
+//}
